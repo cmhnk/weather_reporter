@@ -1,5 +1,6 @@
 module WeatherReporter
-  class CurrentHurricanes < Weather
+  class CurrentHurricanes
+    include Weather
 
     def initialize
     end

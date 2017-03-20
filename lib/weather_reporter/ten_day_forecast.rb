@@ -1,5 +1,6 @@
 module WeatherReporter
-  class TenDayForecast < Weather
+  class TenDayForecast
+    include Weather
 
     def forecast
       vars = payload.map do |x|

@@ -1,5 +1,6 @@
 module WeatherReporter
-  class Sun < Weather
+  class Sun
+    include Weather
 
     def sunrise
       payload["sunrise"]

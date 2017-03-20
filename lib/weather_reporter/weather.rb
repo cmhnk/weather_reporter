@@ -1,5 +1,5 @@
 module WeatherReporter
-  class Weather
+  module Weather
     attr_reader :city, :state
 
     def initialize(city, state)

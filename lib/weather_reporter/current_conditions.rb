@@ -1,5 +1,6 @@
 module WeatherReporter
-  class CurrentConditions < Weather
+  class CurrentConditions
+    include Weather
 
     def temp_f
       payload["temp_f"]

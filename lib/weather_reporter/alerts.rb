@@ -1,5 +1,6 @@
 module WeatherReporter
-  class Alerts < Weather
+  class Alerts
+    include Weather
 
     def response
       if payload.empty?
