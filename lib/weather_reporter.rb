@@ -2,6 +2,8 @@ require 'awesome_print'
 require 'active_record'
 require 'httparty'
 require 'dotenv/load'
+require 'minitest/autorun'
+require 'minitest/pride'
 
 
 module WeatherReporter
