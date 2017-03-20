@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'weather_reporter'
+present = Presenter.new
+
+presenters = [CurrentConditionsPresenter, SunPresenter, AlertsPresenter, TenDayForecastPresenter, CurrentHurricanesPresenter]
+presenters.each do |x|
+  x.new(present.url_city, present.url_state).output_report
+end

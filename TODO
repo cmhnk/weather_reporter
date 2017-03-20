@@ -1,0 +1,5 @@
+Presenter classes for each subclass that are responsible for instantiating those objects
+The report then instantiates Presenter class objects
+Focus on testing the Presenter class stuff
+Database - think about cache invalidation
+Errors for when no data is found for a particular city
