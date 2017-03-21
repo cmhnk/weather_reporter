@@ -1,4 +1,3 @@
-
 require 'weather_reporter'
 
 class TestWeatherReporter < Minitest::Test
