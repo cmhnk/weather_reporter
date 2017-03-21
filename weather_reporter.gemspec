@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'corinne@automatedinsights.com'
   s.files       = Dir["#{File.dirname __FILE__}/**/*.rb"]
   s.executables << 'bin/report'
-  s.test_files = ['tests/test_weather_report.rb']
+  # s.test_files = ['tests/test_weather_report.rb']
 
   [
   'active_record',
