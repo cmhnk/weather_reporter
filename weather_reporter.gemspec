@@ -7,12 +7,15 @@ Gem::Specification.new do |s|
   s.authors     = ["Corinne Henk"]
   s.email       = 'corinne@automatedinsights.com'
   s.files       = Dir["#{File.dirname __FILE__}/**/*.rb"]
-  s.executables << 'weather_reporter'
+  s.executables << 'bin/report'
+  s.test_files = ['tests/test_weather_report.rb']
 
   [
-  'active_record',
+  'activerecord',
   'awesome_print'
   'httparty',
   'dotenv/load',
+  'minitest/autorun',
+  'minitest/pride'
 ].each{|x| s.add_dependency *x}
 end

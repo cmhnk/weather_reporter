@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'awesome_print'
+gem 'activerecord'
+gem 'httparty'
+gem 'dotenv'
+gem 'minitest'
