@@ -25,7 +25,11 @@ module WeatherReporter
       payload["precip_today_string"]
     end
 
-    private def payload
+    def city_not_found
+      "Data not found on the location you requested."
+    end
+
+    def payload
       @_payload ||= get["current_observation"]
     end
 
