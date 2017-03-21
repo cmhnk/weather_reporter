@@ -1,7 +1,6 @@
 require 'awesome_print'
 require 'httparty'
 require 'dotenv/load'
-require 'minitest/autorun'
 require 'minitest/pride'
 
 

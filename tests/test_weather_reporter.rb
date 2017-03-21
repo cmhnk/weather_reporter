@@ -1,4 +1,5 @@
 require 'weather_reporter'
+require 'minitest/autorun'
 
 class TestWeatherReporter < Minitest::Test
 
