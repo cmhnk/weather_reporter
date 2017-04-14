@@ -1,6 +1,12 @@
 require 'weather_reporter'
 require 'minitest/autorun'
 
+class CurrentConditions
+  def payload
+    JSON.read(separate_file)
+  end
+end
+
 class TestWeatherReporter < Minitest::Test
 
   def test_weather_does_not_implement_url
