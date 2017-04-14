@@ -6,8 +6,8 @@ class CurrentConditionsPresenter
   end
 
   def output_report
-    if @cc.payload.nil?
-      ap @cc.city_not_found
+    if cc.payload.nil?
+      ap cc.city_not_found
       exit!
     else
       output_body

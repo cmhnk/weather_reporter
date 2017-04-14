@@ -1,5 +1,7 @@
 class Presenter
 
+  attr_reader :city, :state
+
   def initialize
     puts 'Welcome to the weather forecaster app!'
     puts ""
@@ -10,14 +12,6 @@ class Presenter
     print '>> '
     @state = gets.chomp
     output_body
-  end
-
-  def city
-    @city
-  end
-
-  def state
-    @state
   end
 
   def url_city
