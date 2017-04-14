@@ -1,9 +1,6 @@
 module WeatherReporter
   class CurrentHurricanes < Weather
 
-    def initialize
-    end
-
     def hurricanes
       if payload["currenthurricane"].empty?
         "No current hurricanes to speak of!"
